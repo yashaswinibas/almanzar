@@ -346,10 +346,10 @@ footer .mono{color:#5dffb0;display:block;margin-top:16px}
   .mlogo img{width:18cqw;display:block}
   .mburger{width:11.5cqw;height:11.5cqw;border-radius:50%;border:1px solid rgba(255,255,255,.9);background:rgba(255,255,255,.45);backdrop-filter:blur(10px);box-shadow:0 6px 20px -8px rgba(20,60,160,.35);display:flex;flex-direction:column;justify-content:center;align-items:center;gap:1cqw;cursor:pointer}
   .mburger span{width:4.6cqw;height:2px;border-radius:2px;background:#0b1430}
-  .mcopy{position:absolute;left:5.8%;top:16.5%;right:5%;z-index:4}
+  .mcopy{position:absolute;left:5.8%;top:19%;right:5%;z-index:4}
   .mpill{display:inline-flex;align-items:center;gap:2cqw;padding:1.7cqw 3.6cqw 1.7cqw 2.6cqw;border-radius:999px;background:rgba(255,255,255,.6);border:1px solid rgba(255,255,255,.95);box-shadow:0 4px 14px -6px rgba(20,60,160,.25);font-size:2.7cqw;font-weight:500;color:#0b1430;animation:up .8s ease both .2s}
   .mpill i{width:2.2cqw;height:2.2cqw;border-radius:50%;background:#1a5cf0;animation:pd 2s infinite}
-  .mhl{font-family:'Outfit',sans-serif;font-size:8.6cqw;line-height:1.06;letter-spacing:-.03em;font-weight:500;color:#0b1430;margin-top:3.6cqw}
+  .mhl{font-family:'Outfit',sans-serif;font-size:8.6cqw;line-height:1.06;letter-spacing:-.03em;font-weight:500;color:#0b1430;margin-top:3cqw}
   .mhl span{display:block;animation:up .9s cubic-bezier(.2,.7,.2,1) both .35s}.mhl span+span{animation-delay:.5s}
   .mhl b{font-weight:700;background:linear-gradient(90deg,#1c48d6,#1a7bff);-webkit-background-clip:text;background-clip:text;color:transparent}
   .msub{margin-top:2.6cqw;font-size:3cqw;line-height:1.55;color:#33415f;animation:up .9s ease both .65s}
