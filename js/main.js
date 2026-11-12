@@ -108,3 +108,10 @@ $('#form').addEventListener('submit',e=>{e.preventDefault();const n=$('#fn').val
 $$('[data-modal]').forEach(a=>a.onclick=e=>{e.preventDefault();$('#mt').textContent=a.dataset.modal;$('#modal').classList.add('open')});
 $('#mx').onclick=()=>$('#modal').classList.remove('open');
 $('#modal').onclick=e=>{if(e.target.id==='modal')$('#modal').classList.remove('open')};
+
+// mobile menu
+(()=>{const m=$('#mmenu');if(!m)return;
+$$('#mburger,.tburger').forEach(b=>b.onclick=()=>m.classList.add('open'));
+$('#mclose').onclick=()=>m.classList.remove('open');
+m.querySelectorAll('a').forEach(a=>a.addEventListener('click',()=>m.classList.remove('open')));
+m.querySelectorAll('[data-spot=fintech]').forEach(a=>a.addEventListener('click',()=>showSvc(2)));})();
